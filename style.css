@@ -1,0 +1,76 @@
+
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #070809;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 50px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 10px 40px 0px rgba(47,47,47,.1);
+  }
+  
+  input[type="text"]{
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    background: none;
+    width: 350px;
+    color: black;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+  }
+  
+  input[type="Submit"]{
+    margin: 10px auto;
+    display: block;
+    width: 40%;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  input[type="Submit"]:hover{
+    background: #2691d9;
+    color: #e9f4fb;
+    transition: .5s;
+  }
+  
+  .controls {
+    width: 294px;
+    margin: 15px auto;
+  }
+  
+  .add {
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .remove {
+    float: right;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .controls button i{
+    margin-right: 5px;
+  }
+  
+  .remove:hover, .add:hover{
+    background: #2691d9;
+    color: #e9f4fb;
+    transition: .5s;
+  }
